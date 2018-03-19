@@ -8,5 +8,5 @@ app.config.from_object("config")
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-import web.models
-import web.views
+import awestruck.models
+import awestruck.views

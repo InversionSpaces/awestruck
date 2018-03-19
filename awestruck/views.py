@@ -1,4 +1,4 @@
-from web import app
+from awestruck import app
 
 @app.route("/", methods=["GET", "POST"])
 def main():
