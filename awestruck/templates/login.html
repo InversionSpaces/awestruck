@@ -1,0 +1,5 @@
+<form method="POST" action="{{ url_for('login') }}">
+    {% for field in form %}
+    <div>{{ field }}</div>
+    {% endfor %}
+</form>
